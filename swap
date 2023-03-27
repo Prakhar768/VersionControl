@@ -1,0 +1,22 @@
+
+package assignment_1;
+import java.util.Scanner;
+public class question_6 {
+
+	public static void main(String[] args) {
+		Scanner s6= new Scanner(System.in);
+		
+		System.out.println("Enter the First number");
+		int n1= s6.nextInt();
+		System.out.println("Enter the Second number");
+		int n2= s6.nextInt();
+		
+		int temp=n1;
+		n1=n2;
+		n2=temp;
+		
+		System.out.println("After Swapping, First number is "+n1 +"\nThe Second number is "+n2);
+
+	}
+
+}
